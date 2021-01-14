@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:security/pages/symmetric/ChatroomUI.dart';
 import 'package:security/widget/MainList.dart';
 import 'package:security/widget/dialog/ChatroomDialog.dart';
 import 'package:security/util/Extensions.dart';
@@ -38,7 +39,11 @@ class _SymmetricUIState extends State<SymmetricUI> {
       context: context,
       builder: (BuildContext context) => ChatroomDialog(
         callback: (room,key){
-          toast(room+" - "+key);
+
+          Navigator.push(
+            context,
+            MaterialPageRoute(builder: (context) => ChatRoomUI(room,key)),
+          );
         },
         state: this,
       ),

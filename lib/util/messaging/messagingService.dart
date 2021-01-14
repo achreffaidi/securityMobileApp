@@ -18,6 +18,11 @@ class MessagingService extends ChangeNotifier {
 
   void initUserName(String username){
     this.username = username;
+    notifyListeners();
+  }
+  void initMessageList(){
+    this.messages = List<Message>();
+    notifyListeners();
   }
   void initChannel(String channel){
     this.channel = channel;
@@ -31,23 +36,23 @@ class MessagingService extends ChangeNotifier {
         print("jsonData : ");
         print(jsonData);
         messages.add(Message(
-            data['content'], data['senderChatID'], data['receiverChatID']));
+            data['content'], data['senderChatID'], data['receiverChatID'],new DateTime.fromMicrosecondsSinceEpoch(data['sentAt'])));
         notifyListeners();
       });
       socketIO.connect();
       initialized = true;
+      notifyListeners();
     }
   }
 
-  void disconnect()async{
-    if(socketIO!=null){
-      await socketIO.disconnect();
-      messages.clear();
-      initialized = false ;
-    }
+  void disconnect()  {
+
+    initialized = false;
+    socketIO.disconnect();
+    notifyListeners();
   }
   void sendMessage(String text, String receiverChatID) {
-    messages.add(Message(text, username, receiverChatID));
+    messages.add(Message(text, username, receiverChatID,DateTime.now()));
     socketIO.sendMessage(
       'send_message',
       json.encode({

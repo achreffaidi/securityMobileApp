@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
+import 'package:security/pages/Settings.dart';
 import 'package:security/pages/messagingTest.dart';
 import 'package:security/util/messaging/messagingService.dart';
 
@@ -49,6 +50,9 @@ class _MyHomePageState extends State<MyHomePage> {
       appBar: AppBar(
 backgroundColor: Color.fromRGBO(2, 55, 71, 1),
         title: Text(widget.title),
+        actions: [
+          IconButton(icon: Icon(Icons.settings,color: Colors.white,), onPressed: _navigateToSettings)
+        ],
       ),
       body: Container(
         decoration: BoxDecoration(
@@ -63,6 +67,13 @@ backgroundColor: Color.fromRGBO(2, 55, 71, 1),
         ),
 
       )
+    );
+  }
+
+  void _navigateToSettings() {
+    Navigator.push(
+      context,
+      MaterialPageRoute(builder: (context) => SettingsUI()),
     );
   }
 }

@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
+import 'package:provider/provider.dart';
+import 'package:security/util/messaging/messagingService.dart';
 import 'package:security/util/styling/Text.dart';
 
 import '../TextInput.dart';
@@ -18,6 +20,7 @@ class ChatroomDialog extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+
     return Dialog(
       shape: RoundedRectangleBorder(
         borderRadius: BorderRadius.circular(Consts.padding),
@@ -74,8 +77,8 @@ class ChatroomDialog extends StatelessWidget {
                 child: FlatButton(
                   onPressed: () {
                     if(_room.text.trim().isNotEmpty&&_pass.text.trim().isNotEmpty){
-                      callback(_room.text,_pass.text);
                       Navigator.of(context).pop();// To close the dialog
+                      callback(_room.text,_pass.text);
                     }
                   },
                   child: Text("Enter",style: buttonStyle,),

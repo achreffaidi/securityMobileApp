@@ -78,7 +78,7 @@ class ListBuilder  {
             _navigateTo(context, EncryptUI());
           }, "Encrypt"),
           ButtonBuilder.buildRaisedButton(context, () {
-            _navigateTo(context, CrackingUI());
+            _navigateTo(context, DecryptUI());
           }, "Decrypt"),
           ButtonBuilder.buildRaisedButton(context, callback , "ChatRoom"),
         ],
