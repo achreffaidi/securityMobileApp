@@ -43,11 +43,11 @@ class ChatroomDialog extends StatelessWidget {
           ),
           margin: EdgeInsets.only(top: Consts.avatarRadius),
           decoration: new BoxDecoration(
-            color: Color.fromRGBO(2, 55, 71, 1),
+            color: Color.fromRGBO(80, 0, 0, 1),
             shape: BoxShape.rectangle,
             borderRadius: BorderRadius.circular(Consts.padding),
             border: Border.all(
-              color: Colors.blue,
+              color: Colors.red,
               width: 3,
             ),
             boxShadow: [
@@ -65,12 +65,12 @@ class ChatroomDialog extends StatelessWidget {
                 "Enter ChatRoom",
                 style:
 
-                GoogleFonts.alegreyaSansSc(textStyle: TextStyle(color: Colors.blue,fontSize: 30))
+                GoogleFonts.alegreyaSansSc(textStyle: TextStyle(color: Colors.red,fontSize: 30))
 
               ),
               SizedBox(height: 16.0),
-              buildCustomInputField(true, "Room",_room, 50,false,true,state),
-              buildCustomInputField(true, "Key",_pass, 50,false,true,state),
+              buildCustomInputField(true, "Room",_room, 50,false,true,state,addShadow: false),
+              buildCustomInputField(true, "Key",_pass, 50,false,true,state,addShadow: false),
               SizedBox(height: 24.0),
               Align(
                 alignment: Alignment.bottomRight,

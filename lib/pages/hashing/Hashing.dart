@@ -32,7 +32,7 @@ class _HashingUIState extends State<HashingUI> {
 
     return Scaffold(
         appBar: AppBar(
-          backgroundColor: Color.fromRGBO(2, 55, 71, 1),
+          backgroundColor: Color.fromRGBO(80, 0, 0, 1),
           title: Text("Hashing"),
         ),
         body: Container(
@@ -40,7 +40,7 @@ class _HashingUIState extends State<HashingUI> {
               gradient: LinearGradient(
                   begin: Alignment.topLeft,
                   end: Alignment.bottomRight,
-                  colors: [Color.fromRGBO(2, 55, 71, 1),Color.fromRGBO(1, 30, 40, 1), Color.fromRGBO(1, 22, 28, 1)])),
+                  colors: [Color.fromRGBO(80, 0, 0, 1),Color.fromRGBO(20, 0, 0, 1), Color.fromRGBO(15, 0, 0, 1)])),
           child: Center(
             child: _getBody(context)
           ),
@@ -72,10 +72,10 @@ class _HashingUIState extends State<HashingUI> {
           dropdownColor: Colors.black87,
           isExpanded: true,
           elevation: 5,
-          focusColor: Colors.blue,
+          focusColor: Colors.red,
           underline: Container(),
           itemHeight: 50,
-          icon: Icon(Icons.keyboard_arrow_down,color: Colors.blue,),
+          icon: Icon(Icons.keyboard_arrow_down,color: Colors.red,),
           onChanged: (String newValue) {
             setState(() {
               dropdownValue = newValue;

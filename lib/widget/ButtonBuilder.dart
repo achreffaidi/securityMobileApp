@@ -3,18 +3,18 @@ import 'package:security/util/styling/Text.dart';
 
 class ButtonBuilder{
   static Widget buildRaisedButton(
-      BuildContext context, Null Function() callback, String text) =>
+      BuildContext context, Function() callback, String text,{bool active = true}) =>
       Padding(
         padding: const EdgeInsets.all(8.0),
         child: GestureDetector(
-          onTap: callback,
+          onTap: active?callback:null,
           child: Container(
             width: MediaQuery.of(context).size.width,
             height: 60,
             decoration: BoxDecoration(
                 color: Colors.black38,
                 border: Border.all(
-                  color: Colors.blue,
+                  color: active?Colors.red[900]:Colors.grey,
                   width: 3,
                 ),
                 borderRadius: BorderRadius.circular(12)),

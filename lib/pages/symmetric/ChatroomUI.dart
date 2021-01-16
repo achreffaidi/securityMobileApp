@@ -61,7 +61,7 @@ class _ChatRoomUIState extends State<ChatRoomUI> {
       onWillPop: _onWillPop,
       child: new Scaffold(
           appBar: AppBar(
-            backgroundColor: Color.fromRGBO(2, 55, 71, 1),
+            backgroundColor: Color.fromRGBO(80, 0, 0, 1),
             title: Text("ChatRoom: ${Provider
                 .of<MessagingService>(context)
                 .channel}"),
@@ -73,9 +73,9 @@ class _ChatRoomUIState extends State<ChatRoomUI> {
                       begin: Alignment.topLeft,
                       end: Alignment.bottomRight,
                       colors: [
-                        Color.fromRGBO(2, 55, 71, 1),
-                        Color.fromRGBO(1, 30, 40, 1),
-                        Color.fromRGBO(1, 22, 28, 1)
+                        Color.fromRGBO(80, 0, 0, 1),
+                        Color.fromRGBO(20, 0, 0, 1),
+                        Color.fromRGBO(15, 0, 0, 1)
                       ])),
               child: Center(
                   child: _getBody(context)
@@ -109,7 +109,7 @@ class _ChatRoomUIState extends State<ChatRoomUI> {
                 Container(
                     width: MediaQuery.of(context).size.width*0.9,
                     child: buildCustomInputField(true,"write something", _message, 60,false,false,this)),
-                IconButton(icon: Icon(Icons.send,color: Colors.blue,), onPressed: _sendMessage)
+                IconButton(icon: Icon(Icons.send,color: Colors.red,), onPressed: _sendMessage)
               ],
             ),
           ),
@@ -124,6 +124,7 @@ class _ChatRoomUIState extends State<ChatRoomUI> {
     userName = prefs.get('username');
     Provider.of<MessagingService>(context,listen: false).initUserName(userName);
     Provider.of<MessagingService>(context,listen: false).initChannel(widget.room);
+    Provider.of<MessagingService>(context,listen: false).initIsAsync(false);
     Provider.of<MessagingService>(context,listen: false).initMessageList();
   }
 
@@ -209,7 +210,7 @@ class _ChatRoomUIState extends State<ChatRoomUI> {
                   maxWidth: MediaQuery.of(context).size.width * .6),
               padding: const EdgeInsets.all(15.0),
               decoration: BoxDecoration(
-                color: Colors.blue,
+                color: Colors.red,
                 borderRadius: BorderRadius.only(
                   topLeft: Radius.circular(25),
                   bottomLeft: Radius.circular(25),

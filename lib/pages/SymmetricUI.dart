@@ -15,7 +15,7 @@ class _SymmetricUIState extends State<SymmetricUI> {
 
     return Scaffold(
         appBar: AppBar(
-          backgroundColor: Color.fromRGBO(2, 55, 71, 1),
+          backgroundColor: Color.fromRGBO(80, 0, 0, 1),
           title: Text("Symmetric"),
         ),
         body: Container(
@@ -23,7 +23,7 @@ class _SymmetricUIState extends State<SymmetricUI> {
               gradient: LinearGradient(
                   begin: Alignment.topLeft,
                   end: Alignment.bottomRight,
-                  colors: [Color.fromRGBO(2, 55, 71, 1),Color.fromRGBO(1, 30, 40, 1), Color.fromRGBO(1, 22, 28, 1)])),
+                  colors: [Color.fromRGBO(80, 0, 0, 1),Color.fromRGBO(20, 0, 0, 1), Color.fromRGBO(15, 0, 0, 1)])),
           child: Center(
             child: Center(
               child: ListBuilder.getSymmetricList(context,showPopUp),

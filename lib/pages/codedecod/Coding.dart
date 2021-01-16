@@ -31,7 +31,7 @@ class _CodingUIState extends State<CodingUI> {
 
     return Scaffold(
         appBar: AppBar(
-          backgroundColor: Color.fromRGBO(2, 55, 71, 1),
+          backgroundColor: Color.fromRGBO(80, 0, 0, 1),
           title: Text("Encoding"),
         ),
         body: Container(
@@ -39,7 +39,7 @@ class _CodingUIState extends State<CodingUI> {
               gradient: LinearGradient(
                   begin: Alignment.topLeft,
                   end: Alignment.bottomRight,
-                  colors: [Color.fromRGBO(2, 55, 71, 1),Color.fromRGBO(1, 30, 40, 1), Color.fromRGBO(1, 22, 28, 1)])),
+                  colors: [Color.fromRGBO(80, 0, 0, 1),Color.fromRGBO(20, 0, 0, 1), Color.fromRGBO(15, 0, 0, 1)])),
           child: Center(
             child: _getBody(context)
           ),
@@ -52,7 +52,7 @@ class _CodingUIState extends State<CodingUI> {
     double inputHeight = MediaQuery.of(context).size.height/4;
     return Column(
       children: [
-        buildCustomInputField(true,"write something", _input, inputHeight,true,true,this,callback: (v)=> _onTextChange(v)),
+        buildCustomInputField(true,"write something ...", _input, inputHeight,true,true,this,callback: (v)=> _onTextChange(v)),
         _getToggleButton(),
         buildCustomInputField(false,"", _output, inputHeight,true,false,this)
       ],
@@ -61,8 +61,13 @@ class _CodingUIState extends State<CodingUI> {
 
 
   _getToggleButton() {
-    return ToggleButtons(
-      selectedBorderColor: Colors.blue,
+return ToggleButtons(
+      disabledBorderColor: Colors.white,
+      borderColor: Colors.black54,
+      selectedColor: Colors.red,
+      color: Colors.white,
+      disabledColor: Colors.white,
+      selectedBorderColor: Colors.red,
       onPressed: (selected){
         _selected = selected;
         _onTextChange(_input.text);

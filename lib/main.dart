@@ -3,17 +3,24 @@ import 'package:provider/provider.dart';
 import 'package:security/pages/Settings.dart';
 import 'package:security/pages/messagingTest.dart';
 import 'package:security/util/messaging/messagingService.dart';
-
+import 'package:flutter/services.dart';
 import 'widget/MainList.dart';
+
+final RouteObserver<PageRoute> routeObserver = RouteObserver<PageRoute>();
 
 void main() {
   runApp(MyApp());
 }
 
 class MyApp extends StatelessWidget {
+
   // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
+    SystemChrome.setPreferredOrientations([
+      DeviceOrientation.portraitUp,
+      DeviceOrientation.portraitDown,
+    ]);
     return MultiProvider(
       providers: [
         ChangeNotifierProvider.value(
@@ -21,11 +28,12 @@ class MyApp extends StatelessWidget {
         ),
       ],
       child: MaterialApp(
-        title: 'Security Project',
+        title: 'Crypto',
+        navigatorObservers: [routeObserver],
         theme: ThemeData(
-          primarySwatch: Colors.blue,
+          primarySwatch: Colors.red,
         ),
-        home: MyHomePage(title: 'Security'),
+        home: MyHomePage(title: 'Crypto'),
       ),
     );
   }
@@ -48,7 +56,7 @@ class _MyHomePageState extends State<MyHomePage> {
 
     return Scaffold(
       appBar: AppBar(
-backgroundColor: Color.fromRGBO(2, 55, 71, 1),
+backgroundColor: Color.fromRGBO(80, 0, 0, 1),
         title: Text(widget.title),
         actions: [
           IconButton(icon: Icon(Icons.settings,color: Colors.white,), onPressed: _navigateToSettings)
@@ -59,7 +67,7 @@ backgroundColor: Color.fromRGBO(2, 55, 71, 1),
             gradient: LinearGradient(
                 begin: Alignment.topLeft,
                 end: Alignment.bottomRight,
-                colors: [Color.fromRGBO(2, 55, 71, 1),Color.fromRGBO(1, 30, 40, 1), Color.fromRGBO(1, 22, 28, 1)])),
+                colors: [Color.fromRGBO(80, 0, 0, 1),Color.fromRGBO(20, 0, 0, 1), Color.fromRGBO(15, 0, 0, 1)])),
         child: Center(
           child: Center(
             child: ListBuilder.getMainList(context),
