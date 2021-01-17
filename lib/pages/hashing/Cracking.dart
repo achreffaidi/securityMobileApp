@@ -11,7 +11,6 @@ import 'package:security/util/Extensions.dart';
 import 'package:security/widget/ButtonBuilder.dart';
 import 'package:security/widget/TextInput.dart';
 
-import 'Hashing.dart';
 class CrackingUI extends StatefulWidget {
   @override
   _CrackingUIState createState() => _CrackingUIState();
@@ -37,7 +36,7 @@ class _CrackingUIState extends State<CrackingUI> {
     return Scaffold(
         appBar: AppBar(
           backgroundColor: Color.fromRGBO(80, 0, 0, 1),
-          title: Text("Hashing"),
+          title: Text("Cracking"),
         ),
         body: Container(
           decoration: BoxDecoration(

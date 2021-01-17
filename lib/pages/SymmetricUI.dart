@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:security/pages/symmetric/ChatroomUI.dart';
 import 'package:security/widget/MainList.dart';
 import 'package:security/widget/dialog/ChatroomDialog.dart';
-import 'package:security/util/Extensions.dart';
 
 class SymmetricUI extends StatefulWidget {
   @override
@@ -16,7 +15,7 @@ class _SymmetricUIState extends State<SymmetricUI> {
     return Scaffold(
         appBar: AppBar(
           backgroundColor: Color.fromRGBO(80, 0, 0, 1),
-          title: Text("Symmetric"),
+          title: Text("Symmetric Encryption"),
         ),
         body: Container(
           decoration: BoxDecoration(

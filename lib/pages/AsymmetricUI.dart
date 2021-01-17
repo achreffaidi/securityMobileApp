@@ -1,8 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:security/pages/symmetric/ChatroomUI.dart';
 import 'package:security/widget/MainList.dart';
-import 'package:security/widget/dialog/ChatroomDialog.dart';
-import 'package:security/util/Extensions.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
 import '../main.dart';
@@ -41,7 +38,7 @@ class _AsymmetricUIState extends State<AsymmetricUI> with RouteAware {
     return Scaffold(
         appBar: AppBar(
           backgroundColor: Color.fromRGBO(80, 0, 0, 1),
-          title: Text("Symmetric"),
+          title: Text("Asymmetric Encryption"),
         ),
         body: Container(
           decoration: BoxDecoration(
