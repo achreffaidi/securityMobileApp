@@ -1,6 +1,6 @@
 # Crypto :copyright:
 
-<img src="https://github.com/achreffaidi/securityMobileApp/blob/master/Images/ReadmeImages/logo.png?raw=true" style="zoom:15%;" />
+<div style="text-align:center"><img src="https://github.com/achreffaidi/securityMobileApp/blob/master/Images/ReadmeImages/logo.png?raw=true" width="300"/></div>
 
 #### Authors:
 
