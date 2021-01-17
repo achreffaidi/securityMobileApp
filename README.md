@@ -50,7 +50,7 @@ Now the fun part 😎, Let's discover the app.
 
 By clicking the ⚙️ icon on the top of the screen this screen will open up.
 
-<img src="https://github.com/achreffaidi/securityMobileApp/blob/master/Images/ReadmeImages/1610829457112.jpg?raw=true" style="zoom:25%;" />
+<img src="https://github.com/achreffaidi/securityMobileApp/blob/master/Images/ReadmeImages/1610829457112.jpg?raw=true" width="300" />
 
 From here you can setup the username that will be used as the identifier of our user.
 
@@ -64,13 +64,13 @@ From here you can setup the username that will be used as the identifier of our 
 
 By clicking the `Encoding` button on the Main screen you will get this interface:
 
-<img src="https://github.com/achreffaidi/securityMobileApp/blob/master/Images/ReadmeImages/1610829457104.jpg?raw=true" style="zoom:25%;" />
+<img src="https://github.com/achreffaidi/securityMobileApp/blob/master/Images/ReadmeImages/1610829457104.jpg?raw=true" width="300" />
 
 #### Encoding:
 
 
 
-<img src="https://github.com/achreffaidi/securityMobileApp/blob/master/Images/ReadmeImages/1610829457087.jpg?raw=true" style="zoom:25%;" />
+<img src="https://github.com/achreffaidi/securityMobileApp/blob/master/Images/ReadmeImages/1610829457087.jpg?raw=true" width="300" />
 
 Encoding support 3 coding algorithm:
 
@@ -88,7 +88,7 @@ To illustrate, this is the output of running encoding `Hello world` in :
 
 #### Decoding
 
-<img src="https://github.com/achreffaidi/securityMobileApp/blob/master/Images/ReadmeImages/1610829457079.jpg?raw=true" style="zoom:25%;" />
+<img src="https://github.com/achreffaidi/securityMobileApp/blob/master/Images/ReadmeImages/1610829457079.jpg?raw=true" width="300" />
 
 Nothing special, It just reverse the operation of encoding.
 
@@ -104,7 +104,7 @@ In this part you'll see how we can hash text and crack the hashing using a **bru
 
 #### Hashing:
 
-<img src="https://github.com/achreffaidi/securityMobileApp/blob/master/Images/ReadmeImages/1610829457062.jpg?raw=true" style="zoom:25%;" />
+<img src="https://github.com/achreffaidi/securityMobileApp/blob/master/Images/ReadmeImages/1610829457062.jpg?raw=true" width="300" />
 
 You can choose of the following Algorithms for hashing:
 
@@ -153,11 +153,11 @@ Tests per second : 1392 test/s
 
 This is the screen you'll see when you open go to `Symmetric Encryption` from the main screen.
 
-<img src="https://github.com/achreffaidi/securityMobileApp/blob/master/Images/ReadmeImages/1610829457046.jpg?raw=true" style="zoom:25%;" />
+<img src="https://github.com/achreffaidi/securityMobileApp/blob/master/Images/ReadmeImages/1610829457046.jpg?raw=true" width="300" />
 
 #### Encrypt
 
-<img src="https://github.com/achreffaidi/securityMobileApp/blob/master/Images/ReadmeImages/1610829457038.jpg?raw=true" style="zoom:25%;" />
+<img src="https://github.com/achreffaidi/securityMobileApp/blob/master/Images/ReadmeImages/1610829457038.jpg?raw=true" width="300" />
 
 For symmetric encryption we need, in addition to the text, a **key** that both side of the encrypted communication knows.
 
@@ -185,7 +185,7 @@ To illustrate, this is the output of running encryption `Hello world` using `Vin
 
 #### Decryption
 
-<img src="https://github.com/achreffaidi/securityMobileApp/blob/master/Images/ReadmeImages/1610829457030.jpg?raw=true" style="zoom:25%;" />
+<img src="https://github.com/achreffaidi/securityMobileApp/blob/master/Images/ReadmeImages/1610829457030.jpg?raw=true" width="300" />
 
 Nothing special about it, It just reverse the operation of encryption using the same **key**.
 
@@ -201,11 +201,11 @@ Without the key, the user won't be able to see other people messages.
 
 More than 2 persons can join the room. Actually anyone with the **key** can.
 
-<img src="https://github.com/achreffaidi/securityMobileApp/blob/master/Images/ReadmeImages/1610829457014.jpg?raw=true" style="zoom:25%;" />
+<img src="https://github.com/achreffaidi/securityMobileApp/blob/master/Images/ReadmeImages/1610829457014.jpg?raw=true" width="300" />
 
 You can see in the screen the cool UI of the Chatroom.
 
-<img src="https://github.com/achreffaidi/securityMobileApp/blob/master/Images/ReadmeImages/1610829456914.jpg?raw=true" style="zoom:25%;" />
+<img src="https://github.com/achreffaidi/securityMobileApp/blob/master/Images/ReadmeImages/1610829456914.jpg?raw=true" width="300" />
 
 
 
@@ -216,7 +216,7 @@ By Clicking any chat item you will be redirected to a page with all the details 
 * The **Encrypted Message** that is transmitted through internet.
 * The **Decrypted message** that was decrypted locally in your device using the **key** .
 
-<img src="https://github.com/achreffaidi/securityMobileApp/blob/master/Images/ReadmeImages/1610829456904.jpg?raw=true" style="zoom:25%;" />
+<img src="https://github.com/achreffaidi/securityMobileApp/blob/master/Images/ReadmeImages/1610829456904.jpg?raw=true" width="300" />
 
 We don't spy on your messages, we are not  **WhatsApp** :sob:  , be like us :sunglasses: .
 
@@ -230,11 +230,11 @@ We don't spy on your messages, we are not  **WhatsApp** :sob:  , be like us :sun
 
 This is the screen you'll see when you click `Asymmetric encryption` on the main screen.
 
-<img src="https://github.com/achreffaidi/securityMobileApp/blob/master/Images/ReadmeImages/1610829457006.jpg?raw=true" style="zoom:25%;" />
+<img src="https://github.com/achreffaidi/securityMobileApp/blob/master/Images/ReadmeImages/1610829457006.jpg?raw=true" width="300" />
 
 #### Key Manager
 
-<img src="https://github.com/achreffaidi/securityMobileApp/blob/master/Images/ReadmeImages/1610829456998.jpg?raw=true" style="zoom:25%;" />
+<img src="https://github.com/achreffaidi/securityMobileApp/blob/master/Images/ReadmeImages/1610829456998.jpg?raw=true" width="300" />
 
 The key manager allow the user to **generate key pairs** (public key, private key) and upload the public key to the **keyServer**.
 
@@ -243,7 +243,7 @@ The key manager allow the user to **generate key pairs** (public key, private ke
 
 #### Encrypt
 
-<img src="https://github.com/achreffaidi/securityMobileApp/blob/master/Images/ReadmeImages/1610829456990.jpg?raw=true" style="zoom:25%;" />
+<img src="https://github.com/achreffaidi/securityMobileApp/blob/master/Images/ReadmeImages/1610829456990.jpg?raw=true" width="300" />
 
 This Interface allows the user to encrypt a message using a **public key**.
 
@@ -253,13 +253,13 @@ This Interface allows the user to encrypt a message using a **public key**.
 
 #### Decrypt
 
-<img src="https://github.com/achreffaidi/securityMobileApp/blob/master/Images/ReadmeImages/1610829456982.jpg?raw=true" style="zoom:25%;" />
+<img src="https://github.com/achreffaidi/securityMobileApp/blob/master/Images/ReadmeImages/1610829456982.jpg?raw=true" width="300" />
 
 This Interface allows the user to encrypt a message using a **private key**.
 
 #### Sign
 
-<img src="https://github.com/achreffaidi/securityMobileApp/blob/master/Images/ReadmeImages/1610829456974.jpg?raw=true" style="zoom:25%;" />
+<img src="https://github.com/achreffaidi/securityMobileApp/blob/master/Images/ReadmeImages/1610829456974.jpg?raw=true" width="300" />
 
 This Interface allows the user to sign a message using a **private key**.
 
@@ -269,7 +269,7 @@ This Interface allows the user to sign a message using a **private key**.
 
 #### Verify Signature
 
-<img src="https://github.com/achreffaidi/securityMobileApp/blob/master/Images/ReadmeImages/1610829456965.jpg?raw=true" style="zoom:25%;" />
+<img src="https://github.com/achreffaidi/securityMobileApp/blob/master/Images/ReadmeImages/1610829456965.jpg?raw=true" width="300" />
 
 This Interface allows the user to encrypt a message using the combination of  **public key** + message.
 
@@ -332,22 +332,22 @@ This is an example of a transmetter message:
 
 By clicking the :heavy_plus_sign: button on the bottom of the screen, the user gets the list of users who published their public keys on the keyServer.
 
-<img src="https://github.com/achreffaidi/securityMobileApp/blob/master/Images/ReadmeImages/1610829456957.jpg?raw=true" style="zoom:25%;" />
+<img src="https://github.com/achreffaidi/securityMobileApp/blob/master/Images/ReadmeImages/1610829456957.jpg?raw=true" width="300" />
 
 
 
 By clicking on a user name, our user will be redirected to the chat screen.
 
-<img src="https://github.com/achreffaidi/securityMobileApp/blob/master/Images/ReadmeImages/1610829456949.jpg?raw=true" style="zoom:25%;" />
+<img src="https://github.com/achreffaidi/securityMobileApp/blob/master/Images/ReadmeImages/1610829456949.jpg?raw=true" width="300" />
 
 By clicking on a received message the user can see all the details of the communication process.
 
-<img src="https://github.com/achreffaidi/securityMobileApp/blob/master/Images/ReadmeImages/1610829456941.jpg?raw=true" style="zoom:25%;" />
+<img src="https://github.com/achreffaidi/securityMobileApp/blob/master/Images/ReadmeImages/1610829456941.jpg?raw=true" width="300" />
 
-<img src="https://github.com/achreffaidi/securityMobileApp/blob/master/Images/ReadmeImages/1610829456932.jpg?raw=true" style="zoom:25%;" />
+<img src="https://github.com/achreffaidi/securityMobileApp/blob/master/Images/ReadmeImages/1610829456932.jpg?raw=true" width="300" />
 
 And back to the messenger screen, the user can switch between different conversations.
 
-<img src="https://github.com/achreffaidi/securityMobileApp/blob/master/Images/ReadmeImages/1610829456924.jpg?raw=true" style="zoom:25%;" />
+<img src="https://github.com/achreffaidi/securityMobileApp/blob/master/Images/ReadmeImages/1610829456924.jpg?raw=true" width="300" />
 
 We are not saving messages locally, so once the user leaves the app, all data will be removed from the RAM.
