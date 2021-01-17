@@ -101,6 +101,7 @@ Nothing special, It just reverse the operation of encoding.
 ### Hashing
 
 In this part you'll see how we can hash text and crack the hashing using a **brute-force attack** .
+
 <img src="https://github.com/achreffaidi/securityMobileApp/blob/master/Images/ReadmeImages/1610829457071.jpg?raw=true" width="300" />
 
 #### Hashing:
