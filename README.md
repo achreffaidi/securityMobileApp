@@ -1,6 +1,6 @@
 # Crypto :copyright:
 
-![](https://via.placeholder.com/300)
+![](https://github.com/achreffaidi/securityMobileApp/blob/master/Images/ReadmeImages/logo.png?raw=true)
 
 #### Authors:
 
@@ -28,7 +28,7 @@ The project is composed of two parts.
   * Project Repo:  [securityProjectServer](https://github.com/achreffaidi/securityProjectServer)
 * **The Client App**: A Flutter mobile app that contains all our buisness logic.
 
-![](https://via.placeholder.com/300)
+![](https://github.com/achreffaidi/securityMobileApp/blob/master/Images/ReadmeImages/sec.png?raw=true)
 
 ------
 
@@ -44,13 +44,13 @@ Now the fun part 😎, Let's discover the app.
 
 ### Main Screen
 
-![](https://via.placeholder.com/300)
+![](https://github.com/achreffaidi/securityMobileApp/blob/master/Images/ReadmeImages/1610829457120.jpg?raw=true)
 
 ### Configuration
 
 By clicking the ⚙️ icon on the top of the screen this screen will open up.
 
-![](https://via.placeholder.com/300)
+![](https://github.com/achreffaidi/securityMobileApp/blob/master/Images/ReadmeImages/1610829457112.jpg?raw=true)
 
 From here you can setup the username that will be used as the identifier of our user.
 
@@ -64,13 +64,13 @@ From here you can setup the username that will be used as the identifier of our 
 
 By clicking the `Encoding` button on the Main screen you will get this interface:
 
-![](https://via.placeholder.com/300)
+![](https://github.com/achreffaidi/securityMobileApp/blob/master/Images/ReadmeImages/1610829457104.jpg?raw=true)
 
 #### Encoding:
 
 
 
-![](https://via.placeholder.com/300)
+![](https://github.com/achreffaidi/securityMobileApp/blob/master/Images/ReadmeImages/1610829457087.jpg?raw=true)
 
 Encoding support 3 coding algorithm:
 
@@ -88,7 +88,7 @@ To illustrate, this is the output of running encoding `Hello world` in :
 
 #### Decoding
 
-![](https://via.placeholder.com/300)
+![](https://github.com/achreffaidi/securityMobileApp/blob/master/Images/ReadmeImages/1610829457079.jpg?raw=true)
 
 Nothing special, It just reverse the operation of encoding.
 
@@ -104,7 +104,7 @@ In this part you'll see how we can hash text and crack the hashing using a **bru
 
 #### Hashing:
 
-![](https://via.placeholder.com/300)
+![](https://github.com/achreffaidi/securityMobileApp/blob/master/Images/ReadmeImages/1610829457062.jpg?raw=true)
 
 You can choose of the following Algorithms for hashing:
 
@@ -134,7 +134,7 @@ Also we executed the code using the `compute` function to do all the work on a d
 
 ##### Test result :
 
-Device : Xiomi Note 7
+Device : Xiaomi Note 7
 
 * Qualcomm SDM660 Snapdragon 660 (14 nm)
 * 8gb RAM
@@ -153,11 +153,11 @@ Tests per second : 1392 test/s
 
 This is the screen you'll see when you open go to `Symmetric Encryption` from the main screen.
 
-![](https://via.placeholder.com/300)
+![](https://github.com/achreffaidi/securityMobileApp/blob/master/Images/ReadmeImages/1610829457046.jpg?raw=true)
 
 #### Encrypt
 
-![](https://via.placeholder.com/300)
+![](https://github.com/achreffaidi/securityMobileApp/blob/master/Images/ReadmeImages/1610829457038.jpg?raw=true)
 
 For symmetric encryption we need, in addition to the text, a **key** that both side of the encrypted communication knows.
 
@@ -185,7 +185,7 @@ To illustrate, this is the output of running encryption `Hello world` using `Vin
 
 #### Decryption
 
-![](https://via.placeholder.com/300)
+![](https://github.com/achreffaidi/securityMobileApp/blob/master/Images/ReadmeImages/1610829457030.jpg?raw=true)
 
 Nothing special about it, It just reverse the operation of encryption using the same **key**.
 
@@ -201,20 +201,22 @@ Without the key, the user won't be able to see other people messages.
 
 More than 2 persons can join the room. Actually anyone with the **key** can.
 
+![](https://github.com/achreffaidi/securityMobileApp/blob/master/Images/ReadmeImages/1610829457014.jpg?raw=true)
+
 You can see in the screen the cool UI of the Chatroom.
 
-![](https://via.placeholder.com/300)
+![](https://github.com/achreffaidi/securityMobileApp/blob/master/Images/ReadmeImages/1610829456914.jpg?raw=true)
 
 
 
-By Clicking any chat item you will be rediracted to a page with all the details about that message including :
+By Clicking any chat item you will be redirected to a page with all the details about that message including :
 
 * The  Symmetric Encryption **Algorithm**
 * The **key**
 * The **Encrypted Message** that is transmitted through internet.
 * The **Decrypted message** that was decrypted locally in your device using the **key** .
 
-![](https://via.placeholder.com/300)
+![](https://github.com/achreffaidi/securityMobileApp/blob/master/Images/ReadmeImages/1610829456904.jpg?raw=true)
 
 We don't spy on your messages, we are not  **WhatsApp** :sob:  , be like us :sunglasses: .
 
@@ -228,11 +230,11 @@ We don't spy on your messages, we are not  **WhatsApp** :sob:  , be like us :sun
 
 This is the screen you'll see when you click `Asymmetric encryption` on the main screen.
 
-![](https://via.placeholder.com/300)
+![](https://github.com/achreffaidi/securityMobileApp/blob/master/Images/ReadmeImages/1610829457006.jpg?raw=true)
 
 #### Key Manager
 
-![](https://via.placeholder.com/300)
+![](https://github.com/achreffaidi/securityMobileApp/blob/master/Images/ReadmeImages/1610829456998.jpg?raw=true)
 
 The key manager allow the user to **generate key pairs** (public key, private key) and upload the public key to the **keyServer**.
 
@@ -241,7 +243,7 @@ The key manager allow the user to **generate key pairs** (public key, private ke
 
 #### Encrypt
 
-![](https://via.placeholder.com/300)
+![](https://github.com/achreffaidi/securityMobileApp/blob/master/Images/ReadmeImages/1610829456990.jpg?raw=true)
 
 This Interface allows the user to encrypt a message using a **public key**.
 
@@ -251,7 +253,7 @@ This Interface allows the user to encrypt a message using a **public key**.
 
 #### Decrypt
 
-![](https://via.placeholder.com/300)
+![](https://github.com/achreffaidi/securityMobileApp/blob/master/Images/ReadmeImages/1610829456982.jpg?raw=true)
 
 This Interface allows the user to encrypt a message using a **private key**.
 
@@ -267,7 +269,7 @@ This Interface allows the user to sign a message using a **private key**.
 
 #### Verify Signature
 
-![](https://via.placeholder.com/300)
+![](https://github.com/achreffaidi/securityMobileApp/blob/master/Images/ReadmeImages/1610829456974.jpg?raw=true)
 
 This Interface allows the user to encrypt a message using the combination of  **public key** + message.
 
@@ -330,23 +332,23 @@ This is an example of a transmetter message:
 
 By clicking the :heavy_plus_sign: button on the bottom of the screen, the user gets the list of users who published their public keys on the keyServer.
 
-![](https://via.placeholder.com/300)
+![](https://github.com/achreffaidi/securityMobileApp/blob/master/Images/ReadmeImages/1610829456957.jpg?raw=true)
 
 
 
 By clicking on a user name, our user will be redirected to the chat screen.
 
-![](https://via.placeholder.com/300)
+![](https://github.com/achreffaidi/securityMobileApp/blob/master/Images/ReadmeImages/1610829456949.jpg?raw=true)
 
 By clicking on a received message the user can see all the details of the communication process.
 
-![](https://via.placeholder.com/300)
+![](https://github.com/achreffaidi/securityMobileApp/blob/master/Images/ReadmeImages/1610829456941.jpg?raw=true)
 
-![](https://via.placeholder.com/300)
+![](https://github.com/achreffaidi/securityMobileApp/blob/master/Images/ReadmeImages/1610829456932.jpg?raw=true)
 
 And back to the messenger screen, the user can switch between different conversations.
 
-![](https://via.placeholder.com/300)
+![](https://github.com/achreffaidi/securityMobileApp/blob/master/Images/ReadmeImages/1610829456924.jpg?raw=true)
 
 We are not saving messages locally, so once the user leaves the app, all data will be removed from the RAM.
 
