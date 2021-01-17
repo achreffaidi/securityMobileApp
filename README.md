@@ -18,7 +18,7 @@ This project is a demonstration of some cryptography algorithms using Flutter Fr
 
 Also for fun, we implemented A **Chatroom App** &  **Messenger chat app** inside the main app in order to demonstrate how Symmetric and Asymmetric encyption works .
 
-The message exchange will is performed through **Sockets**.
+The message exchange is performed through **Sockets**.
 
 ## Architecture
 
@@ -72,7 +72,7 @@ By clicking the `Encoding` button on the Main screen you will get this interface
 
 <img src="https://github.com/achreffaidi/securityMobileApp/blob/master/Images/ReadmeImages/1610829457087.jpg?raw=true" width="300" />
 
-Encoding support 3 coding algorithm:
+Encoding supports 3 coding algorithms:
 
 * To Base64
 * To Binary
@@ -90,7 +90,7 @@ To illustrate, this is the output of running encoding `Hello world` in :
 
 <img src="https://github.com/achreffaidi/securityMobileApp/blob/master/Images/ReadmeImages/1610829457079.jpg?raw=true" width="300" />
 
-Nothing special, It just reverse the operation of encoding.
+Nothing special, It just reverses the operation of encoding.
 
 
 
@@ -108,7 +108,7 @@ In this part you'll see how we can hash text and crack the hashing using a **bru
 
 <img src="https://github.com/achreffaidi/securityMobileApp/blob/master/Images/ReadmeImages/1610829457062.jpg?raw=true" width="300" />
 
-You can choose of the following Algorithms for hashing:
+You can choose one of the following Algorithms for hashing:
 
 * SHA-1
 * SHA-224
@@ -128,11 +128,11 @@ To illustrate, this is the output of running hashing `Hello world` in :
 
 #### Cracking the Hash
 
-For the **brute-force attack** we are using a **5 Milions word** dictionary downloaded from  [this link](https://thehacktoday.com/password-cracking-dictionarys-download-for-free/) .
+For the **brute-force attack** we are using a **5 Million words** dictionnary downloaded from  [this link](https://thehacktoday.com/password-cracking-dictionarys-download-for-free/) .
 
 <img src="https://github.com/achreffaidi/securityMobileApp/blob/master/Images/ReadmeImages/1610829457054.jpg?raw=true" width="300" />
 
-Because of the huge computational power required for this operation we had to divide the dictionary **mini-batchs** with 10000 words in each of them.
+Because of the huge computational power required for this operation we had to divide the dictionary onto **mini-batchs** with 10000 words in each of them.
 
 Also we executed the code using the `compute` function to do all the work on a different "Thread" to avoid skipping frames and give a feed back on the operation's progress since it takes a long time.
 
@@ -167,7 +167,7 @@ For symmetric encryption we need, in addition to the text, a **key** that both s
 
 Any one with the **key** can encrypt and decrypt messages.
 
-You can choose of the following Algorithms for Encryption:
+You can choose one of the following Algorithms for Encryption:
 
 * AES CBC
 * AES CFB-64
@@ -191,7 +191,7 @@ To illustrate, this is the output of running encryption `Hello world` using `Vin
 
 <img src="https://github.com/achreffaidi/securityMobileApp/blob/master/Images/ReadmeImages/1610829457030.jpg?raw=true" width="300" />
 
-Nothing special about it, It just reverse the operation of encryption using the same **key**.
+Nothing special about it, It just reverses the operation of encryption using the same **key**.
 
 
 
@@ -240,7 +240,7 @@ This is the screen you'll see when you click `Asymmetric encryption` on the main
 
 <img src="https://github.com/achreffaidi/securityMobileApp/blob/master/Images/ReadmeImages/1610829456998.jpg?raw=true" width="300" />
 
-The key manager allow the user to **generate key pairs** (public key, private key) and upload the public key to the **keyServer**.
+The key manager allows the user to **generate key pairs** (public key, private key) and upload the public key to the **keyServer**.
 
 * Algorithm: `RSA`
 * Key size: `2048 bit`
@@ -259,7 +259,7 @@ This Interface allows the user to encrypt a message using a **public key**.
 
 <img src="https://github.com/achreffaidi/securityMobileApp/blob/master/Images/ReadmeImages/1610829456982.jpg?raw=true" width="300" />
 
-This Interface allows the user to encrypt a message using a **private key**.
+This Interface allows the user to decrypt a message using a **private key**.
 
 #### Sign
 
@@ -275,7 +275,7 @@ This Interface allows the user to sign a message using a **private key**.
 
 <img src="https://github.com/achreffaidi/securityMobileApp/blob/master/Images/ReadmeImages/1610829456965.jpg?raw=true" width="300" />
 
-This Interface allows the user to encrypt a message using the combination of  **public key** + message.
+This Interface allows the user to verify the signature of a message using the combination of  **public key** + message.
 
 
 
@@ -315,7 +315,7 @@ Since we are using **RSA 2048** with **SHA-256** then we only have 190 bytes as 
 
 And if we take in concediration that **OAEP** padding takes 42 bytes, then the remaining is `148 bytes` :thinking:.
 
-To solve the issue we had to make our message's size a multiple of `148` by adding extra spaces on the top right. then we divide the message in blocks of `148 bytes`, encrypt each of them and send the concatinated result. :sunglasses:
+To solve the issue we had to make our message's size a multiple of `148` by adding extra spaces on the top right. then we divide the message in blocks of `148 bytes`, encrypt each of them and send the concatenated result. :sunglasses:
 
 We also send the **size of an encrypted block** so the receiver can reverse the operation and get the message back.
 
