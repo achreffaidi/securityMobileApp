@@ -101,6 +101,7 @@ Nothing special, It just reverse the operation of encoding.
 ### Hashing
 
 In this part you'll see how we can hash text and crack the hashing using a **brute-force attack** .
+<img src="https://github.com/achreffaidi/securityMobileApp/blob/master/Images/ReadmeImages/1610829457071.jpg?raw=true" width="300" />
 
 #### Hashing:
 
@@ -127,6 +128,8 @@ To illustrate, this is the output of running hashing `Hello world` in :
 #### Cracking the Hash
 
 For the **brute-force attack** we are using a **5 Milions word** dictionary downloaded from  [this link](https://thehacktoday.com/password-cracking-dictionarys-download-for-free/) .
+
+<img src="https://github.com/achreffaidi/securityMobileApp/blob/master/Images/ReadmeImages/1610829457054.jpg?raw=true" width="300" />
 
 Because of the huge computational power required for this operation we had to divide the dictionary **mini-batchs** with 10000 words in each of them.
 
