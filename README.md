@@ -28,7 +28,7 @@ The project is composed of two parts.
   * Project Repo:  [securityProjectServer](https://github.com/achreffaidi/securityProjectServer)
 * **The Client App**: A Flutter mobile app that contains all our buisness logic.
 
-<img src="https://github.com/achreffaidi/securityMobileApp/blob/master/Images/ReadmeImages/sec.png?raw=true" style="zoom: 67%;" />
+<img src="https://github.com/achreffaidi/securityMobileApp/blob/master/Images/ReadmeImages/sec.png?raw=true" />
 
 ------
 
@@ -44,7 +44,7 @@ Now the fun part 😎, Let's discover the app.
 
 ### Main Screen
 
-<img src="https://github.com/achreffaidi/securityMobileApp/blob/master/Images/ReadmeImages/1610829457120.jpg?raw=true" style="zoom: 25%;" />
+<img src="https://github.com/achreffaidi/securityMobileApp/blob/master/Images/ReadmeImages/1610829457120.jpg?raw=true" width="300" />
 
 ### Configuration
 
